@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css"></head>
+    <title>Tyler's Sports Survey</title>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="jumbotron">
+        <div class="h1">
+            <h1>The Ultimate Sports Survey</h1>
+        </div>
+    </div>
+<div class="container-fluid whitebar">
+    <div class="row">
+        <div class="col-md-11 col-md-offset-1">
+<form action="#" method="post">
+    <p style="font-size: 24px">Your Information</p>
+    <table>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="first"/></td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="last"/></td>
+        </tr>
+        <tr>
+            <td>Email Address:</td>
+            <td><input type="text" name="email"/></td>
+        </tr>
+        <tr>
+    </table>
+</form>
+</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <div class="container-fluid whitebar">
+        <div class="row">
+            <div class="col-md-11 col-md-offset-1">
+                <p style="font-size: 24px">Who is your favorite football team?</p>
+                <select id="opts" onchange="showForm()">
+                    <option value="0">Select Option</option>
+                    <option value="0" style="">I do not watch</option>
+                    <option value="1">Arizona Cardnials</option>
+                    <option value="2">Atlanta Falcons</option>
+                    <option value="2">Baltimore Ravens</option>
+                    <option value="2">Buffalo Bills</option>
+                    <option value="2">Carolina Panthers</option>
+                    <option value="2">Chicago Bears</option>
+                    <option value="2">Cincinnati Bengals</option>
+                    <option value="2">Cleveland Browns</option>
+                    <option value="2">Dallas Cowboys</option>
+                    <option value="2">Denver Broncos</option>
+                    <option value="2">Detroit Lions</option>
+                    <option value="2">Green Bay Packers</option>
+                    <option value="2">Houston Texans</option>
+                    <option value="2">Indianapolis Colts</option>
+                    <option value="2">Jacksonville Jaguars</option>
+                    <option value="2">Kansas City Chiefs</option>
+                    <option value="2">Los Angeles Rams</option>
+                    <option value="2">Miami Dolphins</option>
+                    <option value="2">Minnesota Vikings</option>
+                    <option value="2">New England Patriots</option>
+                    <option value="2">New Orleans Saints</option>
+                    <option value="2">New York Giants</option>
+                    <option value="2">New York Jets</option>
+                    <option value="2">Oakland Raiders</option>
+                    <option value="2">Philadelphia Eagles</option>
+                    <option value="2">Pittsburgh Steelers</option>
+                    <option value="2">San Diego Chargers</option>
+                    <option value="2">San Francisco 49ers</option>
+                    <option value="2">Seattle Seahawks</option>
+                    <option value="2">Tampa Bay Buccaneers</option>
+                    <option value="2">Tennessee Titans</option>
+                    <option value="2">Washington Redskins</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col-md-11 col-md-offset-1">
+                <div class="row"></div>
+                <p style="font-size: 24px">Who is your favorite player?</p>
+                <td><input type="text"></td>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="col-md-11 col-md-offset-1">
+                <div class="row"></div>
+                <p style="font-size: 24px">How ofter do you watch games?</p>
+                <select id="opts" onchange="showForm()">
+                    <option value="0">Select Option</option>
+                    <option value="1">Weekly</option>
+                    <option value="2">Monthly</option>
+                    <option value="2">Not at all</option>
+                </select>
+            </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container-fluid bluebar">
+            <div class="row">
+                <div class="col-md-11 col-md-offset-1">
+                    <p style="font-size: 24px">Who is your favorite Baseball team?</p>
+                    <select id="opts" onchange="showForm()">
+                        <option value="0">Select Option</option>
+                        <option value="1">Arizona Diamondbacks</option>
+                        <option value="0">I do not watch</option>
+                        <option value="2">Atlanta Braves</option>
+                        <option value="2">Baltimore Orioles</option>
+                        <option value="2">Boston Red Sox</option>
+                        <option value="2">Chicago Cubs</option>
+                        <option value="2">Chicago White Sox</option>
+                        <option value="2">Cincinnati Reds</option>
+                        <option value="2">Cleveland Indians</option>
+                        <option value="2">Colorado Rockies</option>
+                        <option value="2">Detroit Tigers</option>
+                        <option value="2">Houston Astros</option>
+                        <option value="2">Kansas City Royals</option>
+                        <option value="2">Los Angeles Angels</option>
+                        <option value="2">Los Angeles Dodgers</option>
+                        <option value="2">Miami Marlins</option>
+                        <option value="2">Milwaukee Brewers</option>
+                        <option value="2">Minnesota Twins</option>
+                        <option value="2">New York Mets</option>
+                        <option value="2">New York Yankees</option>
+                        <option value="2">Oakland Athletics</option>
+                        <option value="2">Philadelphia Phillies</option>
+                        <option value="2">Pittsburgh Pirates</option>
+                        <option value="2">San Diego Padres</option>
+                        <option value="2">San Francisco Giants</option>
+                        <option value="2">Seattle Mariners</option>
+                        <option value="2">St. Louis Cardinals</option>
+                        <option value="2">Tampa Bay Rays</option>
+                        <option value="2">Texas Rangers</option>
+                        <option value="2">Toronto Blue Jays</option>
+                        <option value="2">Washington Nationals</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="col-md-11 col-md-offset-1">
+                    <div class="row"></div>
+                    <p style="font-size: 24px">Who is your favorite player?</p>
+                    <td><input type="text"></td>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="col-md-11 col-md-offset-1">
+                    <div class="row"></div>
+                    <p style="font-size: 24px">How ofter do you watch games?</p>
+                    <select id="opts" onchange="showForm()">
+                        <option value="0">Select Option</option>
+                        <option value="1">Weekly</option>
+                        <option value="2">Monthly</option>
+                        <option value="2">Not at all</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="container-fluid question2">
+                    <div class="row">
+                        <div class="col-md-11 col-md-offset-1">
+                            <p style="font-size: 24px">Who is your favorite Hockey team?</p>
+                            <select id="opts" onchange="showForm()">
+                                <option value="0">Select Option</option>
+                                <option value="0">I do not watch</option>
+                                <option value="1">Anaheim Ducks</option>
+                                <option value="2">Boston Bruins</option>
+                                <option value="2">Calgary Flames</option>
+                                <option value="2">Carolina Hurricanes</option>
+                                <option value="2">Chicago Blackhawks</option>
+                                <option value="2">Colorado Avalanche</option>
+                                <option value="2">Columbus Blue Jackets</option>
+                                <option value="2">Dallas Stars</option>
+                                <option value="2">Detroit Red Wings</option>
+                                <option value="2">Edmonton Oilers</option>
+                                <option value="2">Florida Panthers</option>
+                                <option value="2">Los Angeles Kings</option>
+                                <option value="2">Minnesota Wild</option>
+                                <option value="2">Montreal Canadiens</option>
+                                <option value="2">Nashville Predators</option>
+                                <option value="2">New Jersey Devils</option>
+                                <option value="2">New York Islanders</option>
+                                <option value="2">New York Rangers</option>
+                                <option value="2">Ottawa Senators</option>
+                                <option value="2">Philadelphia Flyers</option>
+                                <option value="2">Phoenix Coyotes</option>
+                                <option value="2">Pittsburgh Penguins</option>
+                                <option value="2">St. Louis Blues</option>
+                                <option value="2">San Jose Sharks</option>
+                                <option value="2">Tampa Bay Lightning</option>
+                                <option value="2">Toronto Maple Leafs</option>
+                                <option value="2">Vancouver Canucks</option>
+                                <option value="2">Washington Capitals</option>
+                                <option value="2">Winnipeg Jets</option>
+                            </select>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="col-md-11 col-md-offset-1">
+                            <div class="row"></div>
+                            <p style="font-size: 24px">Who is your favorite player?</p>
+                            <td><input type="text"></td>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="col-md-11 col-md-offset-1">
+                            <div class="row"></div>
+                            <p style="font-size: 24px">How ofter do you watch games?</p>
+                            <select id="opts" onchange="showForm()">
+                                <option value="0">Select Option</option>
+                                <option value="1">Weekly</option>
+                                <option value="2">Monthly</option>
+                                <option value="2">Not at all</option>
+                            </select>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="container-fluid question2">
+                            <div class="row">
+                                <div class="col-md-11 col-md-offset-1">
+                                    <p style="font-size: 24px">Who is your favorite Basketball team?</p>
+                                    <select id="opts" onchange="showForm()">
+                                        <option value="0">Select Option</option>
+                                        <option value="0">I do not watch</option>
+                                        <option value="1">Atlanta Hawks</option>
+                                        <option value="2">Boston Celtics</option>
+                                        <option value="2">Brooklyn Nets</option>
+                                        <option value="2">Charlotte Hornets</option>
+                                        <option value="2">Chicago Bulls</option>
+                                        <option value="2">Cleveland Cavaliers</option>
+                                        <option value="2">Dallas Mavericks</option>
+                                        <option value="2">Denver Nuggets</option>
+                                        <option value="2">Detroit Pistons</option>
+                                        <option value="2">Golden State Warriors</option>
+                                        <option value="2">Houston Rockets</option>
+                                        <option value="2">Indiana Pacers</option>
+                                        <option value="2">Los Angeles Clippers</option>
+                                        <option value="2">Los Angeles Lakers</option>
+                                        <option value="2">Memphis Grizzlies</option>
+                                        <option value="2">Miami Heat</option>
+                                        <option value="2">Milwaukee Bucks</option>
+                                        <option value="2">Minnesota Timberwolves</option>
+                                        <option value="2">New Orleans Pelicans</option>
+                                        <option value="2">New York Knicks</option>
+                                        <option value="2">Oklahoma City Thunder</option>
+                                        <option value="2">Orlando Magic</option>
+                                        <option value="2">Philadelphia 76ers</option>
+                                        <option value="2">Phoenix Suns</option>
+                                        <option value="2">Portland Trail Blazers</option>
+                                        <option value="2">Sacramento Kings</option>
+                                        <option value="2">San Antonio Spurs</option>
+                                        <option value="2">Toronot Raptors</option>
+                                        <option value="2">Utah Jazz</option>
+                                        <option value="2">Washington Wizards</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="col-md-11 col-md-offset-1">
+                                    <div class="row"></div>
+                                    <p style="font-size: 24px">Who is your favorite player?</p>
+                                    <td><input type="text"></td>
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="col-md-11 col-md-offset-1">
+                                    <div class="row"></div>
+                                    <p style="font-size: 24px">How ofter do you watch games?</p>
+                                    <select id="opts" onchange="showForm()">
+                                        <option value="0">Select Option</option>
+                                        <option value="1">Weekly</option>
+                                        <option value="2">Monthly</option>
+                                        <option value="2">Not at all</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+
+                                <div id="additional">
+                                <p style="text-align: left">Additional Comments</p>
+                                </div>
+                                    <div class="container-fluid"
+                                <form action="/html/tags/html_form_tag_action.cfm" method="post">
+                                    <div id="comments">
+                                <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+                                Comment's!
+                                </textarea>
+                                    </div>
+                                </form>
+                                <button type="button"
+                                        style="background-color:Gray;margin-left:auto;margin-right:auto;display:block;margin-top:10%;margin-bottom:0%">
+                                    Submit</button>
+                                <br>
+                                <br>
+                                <br>
+                                <div class="col-md-10 col-md-offset-1">
+                                    <div class="row">
+                                        <p style="text-align: center">Thank you for taking this survey and for your input.</p>
+                                    </div>
+
+</body>
+</html>
